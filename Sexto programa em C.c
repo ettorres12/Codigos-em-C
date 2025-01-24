@@ -14,9 +14,9 @@
 				geo2 = (geo/3.0);
 				harm = 3.0/((1.0/a) + (1.0/b) + (1.0/c));
 				pond = ((1.0*a) + (2.0*b) + (3.0*c))/(1.0 + 2.0 + 3.0);
-					printf("mediaarit: %f\n", mediaarit);
-					printf("geo: %f\n", geo2);
-					printf("harm: %f\n", harm);
-					printf("pond: %f\n", pond);
+					printf("mediaarit: %.2f\n", mediaarit);
+					printf("geo: %.2f\n", geo2);
+					printf("harm: %.2f\n", harm);
+					printf("pond: %.2f\n", pond);
 					return 0;
 	}
